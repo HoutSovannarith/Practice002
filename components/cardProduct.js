@@ -3,7 +3,7 @@ const cardProductPlaceholder = "https://www.svgrepo.com/show/508699/landscape-pl
 export const cardProduct = (product) => {
     return `       
         <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
+        <a href="#" class="flex justify-center">
             <img class="p-8 rounded-t-lg" src="${product?.mainImage || cardProductPlaceholder}" />
         </a>
         <div class="px-5 pb-5">
